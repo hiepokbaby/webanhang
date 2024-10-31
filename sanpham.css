@@ -1,0 +1,73 @@
+.product-container{
+    .product-container {
+        display: flex;
+        justify-content: space-around; 
+        flex-wrap: nowrap; 
+        overflow-x: auto; 
+        padding: 20px;
+        white-space: nowrap; 
+    }
+
+    .product-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        width: 250px;
+        padding: 15px;
+        margin: 15px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+        display: inline-block; /* Đặt sản phẩm thành khối ngang */
+    }
+
+    .product-card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .product-name {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #333;
+    }
+
+    .product-price {
+        font-size: 16px;
+        color: #e74c3c;
+        margin-bottom: 10px;
+    }
+
+    .add-to-cart {
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .add-to-cart:hover {
+        background-color: #2980b9;
+    }
+
+   
+    .product-container::-webkit-scrollbar {
+        height: 10px;
+    }
+
+    .product-container::-webkit-scrollbar-thumb {
+        background-color: #3498db;
+        border-radius: 10px;
+    }
+
+    .product-container::-webkit-scrollbar-track {
+        background-color: #ddd;
+    }
+}

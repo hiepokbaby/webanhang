@@ -1,0 +1,31 @@
+
+.flexContain {
+    color: #288ad6;
+    list-style: none; 
+    padding: 0;
+    margin: 20px 0;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.flexContain li {
+    flex: 1 1 18%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #1f512b; 
+    border-radius: 5px;
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    transition: box-shadow 0.3s ease; /* Hiệu ứng khi di chuột */
+}
+
+.flexContain li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Tăng hiệu ứng đổ bóng khi hover */
+}
+
+.flexContain a {
+    text-decoration: none;
+    color: #288ad6;
+    font-weight: bold;
+}

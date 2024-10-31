@@ -1,0 +1,64 @@
+/*phan san pham*/
+
+.trungbay {
+    background-color: #333; 
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box; 
+    border: 2px solid #000; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho khung viền */
+}
+
+
+.trungbay ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.trungbay ul li {
+    margin: 0 15px; 
+    padding: 15px; 
+    border: 2px solid #fff; 
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center; 
+    box-sizing: border-box; 
+}
+
+
+.trungbay ul li a {
+    color: #fff; 
+    text-decoration: none; /* Loại bỏ gạch chân */
+    font-size: 16px; 
+    display: flex; 
+    align-items: center; 
+    width: 100%; 
+}
+
+
+.trungbay ul li a img {
+    margin-right: 10px; 
+    vertical-align: middle; 
+    width: 30px; 
+    height: 30px;
+    border: 2px solid #fff; 
+    border-radius: 50%; /* Bo tròn ảnh để tạo hình tròn */
+    padding: 3px; 
+    background-color: #333; 
+}
+
+.trungbay ul li:hover {
+    background-color: #555; /* Màu nền của mục khi hover */
+    color: #ffd700; /* Màu chữ khi hover */
+}
+
+
+
+
